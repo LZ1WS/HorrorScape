@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "alchemy",
+    "level": 16,
+    "item": "minecraft:custom_item",
+    "object": "wizards:staff_netherite_fire"
+}

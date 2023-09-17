@@ -1,0 +1,60 @@
+{
+  "version": {
+    "description1": "Config version number used for auto_regen_outdated.",
+    "description2": "Do not modify.",
+    "value": 2
+  },
+  "auto_regen_outdated": {
+    "description": "Should this file automatically regenerate whenever the default options are changed?",
+    "value": true
+  },
+  "special_behaviour_rarity": {
+    "description": "1 in this number chance for Things to get each special ability.",
+    "value": 25
+  },
+  "max_miniboss_tier": {
+    "description": "Maximum tier that minibosses can grow to. They start at tier 0.",
+    "value": 3
+  },
+  "crawler_merge_chance": {
+    "description": "1 in this number chance every tick to attempt to merge.",
+    "value": 800
+  },
+  "juliette_thing_merge_chance": {
+    "value": 800
+  },
+  "palmer_thing_merge_chance": {
+    "value": 800
+  },
+  "split_face_merge_chance": {
+    "value": 800
+  },
+  "blair_thing_merge_chance": {
+    "value": 800
+  },
+  "dogbeast_spitter_merge_chance": {
+    "value": 800
+  },
+  "dogbeast_merge_chance": {
+    "value": 800
+  },
+  "impaler_merge_chance": {
+    "value": 800
+  },
+  "prowler_merge_chance": {
+    "value": 1600
+  },
+  "beast_merge_chance": {
+    "value": 800
+  },
+  "burrowing": {
+    "description": "Most Things should be able to burrow if they cannot reach where they are trying to pathfind to.",
+    "value": false
+  },
+  "maxGriefingHardness": {
+    "description1": "The maximum hardness that Things can break. Set to a negative value to disable all Thing block breaking.",
+    "description2": "Blocks with negative hardness values can never be broken.",
+    "description3": "To blacklist specific blocks, add to the thing_immune tag using a data pack.",
+    "value": 49.0
+  }
+}

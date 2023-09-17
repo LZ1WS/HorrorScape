@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "archery",
+    "level": 8,
+    "item": "minecraft:custom_item",
+    "object": "hwg:rocketlauncher"
+}

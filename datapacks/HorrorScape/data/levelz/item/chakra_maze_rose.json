@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "archery",
+    "level": 4,
+    "item": "minecraft:custom_item",
+    "object": "aquamirae:maze_rose"
+}

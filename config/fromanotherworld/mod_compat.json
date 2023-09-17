@@ -1,0 +1,19 @@
+{
+  "version": {
+    "description1": "Config version number used for auto_regen_outdated.",
+    "description2": "Do not modify.",
+    "value": 1
+  },
+  "auto_regen_outdated": {
+    "description": "Should this file automatically regenerate whenever the default options are changed?",
+    "value": true
+  },
+  "spore_allies": {
+    "description": "Things never fight Fungal Infection mobs?",
+    "value": true
+  },
+  "sculk_allies": {
+    "description": "Things never fight Sculk Horde mobs?",
+    "value": true
+  }
+}

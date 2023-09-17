@@ -1,0 +1,11 @@
+{
+  "volume": 70,
+  "clientPlayerVolume": 10,
+  "otherPlayerVolume": 70,
+  "runningVolumeIncrease": 0,
+  "wetSoundsVolume": 50,
+  "stance": "UNKNOWN",
+  "multiplayer": true,
+  "global": true,
+  "targetEntities": "ALL"
+}

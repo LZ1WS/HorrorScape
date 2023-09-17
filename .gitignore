@@ -1,0 +1,7 @@
+mods/
+resourcepacks/
+shaderpacks/
+scripts/examples/
+options.txt
+profile.json
+*.zip

@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "archery",
+    "level": 10,
+    "item": "minecraft:custom_item",
+    "object": "soulsweapons:gatling_gun"
+}

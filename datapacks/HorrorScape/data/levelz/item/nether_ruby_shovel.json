@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "mining",
+    "level": 9,
+    "item": "minecraft:custom_item",
+    "object": "betternether:nether_ruby_shovel"
+}

@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "alchemy",
+    "level": 5,
+    "item": "minecraft:custom_item",
+    "object": "mythicmetals:carmot_staff"
+}

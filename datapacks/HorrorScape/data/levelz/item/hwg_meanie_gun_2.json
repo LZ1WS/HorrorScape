@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "archery",
+    "level": 3,
+    "item": "minecraft:custom_item",
+    "object": "hwg:meanie_gun_2"
+}

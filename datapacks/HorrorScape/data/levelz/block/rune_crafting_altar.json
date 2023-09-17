@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "alchemy",
+    "level": 1,
+    "block": "minecraft:custom_block",
+    "object": "runes:crafting_altar"
+}

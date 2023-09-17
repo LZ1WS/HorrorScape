@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "defense",
+    "level": 10,
+    "item": "minecraft:custom_item",
+    "object": "ad_astra:netherite_space_helmet"
+}

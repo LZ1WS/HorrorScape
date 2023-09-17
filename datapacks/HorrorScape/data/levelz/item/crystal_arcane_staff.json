@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "alchemy",
+    "level": 13,
+    "item": "minecraft:custom_item",
+    "object": "wizards:staff_crystal_arcane"
+}

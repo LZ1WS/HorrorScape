@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "mining",
+    "level": 16,
+    "item": "minecraft:custom_item",
+    "object": "betternether:flaming_ruby_shovel"
+}

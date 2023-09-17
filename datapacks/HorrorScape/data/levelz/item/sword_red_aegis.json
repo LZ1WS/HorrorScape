@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "strength",
+    "level": 13,
+    "item": "minecraft:custom_item",
+    "object": "mythicmetals:red_aegis_sword"
+}

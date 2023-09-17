@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "skill": "defense",
+    "level": 4,
+    "item": "minecraft:custom_item",
+    "object": "ad_astra:space_suit"
+}
