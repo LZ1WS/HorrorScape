@@ -76,9 +76,9 @@
 	*/
 	"player_relations": {
 		"minecraft:player": "NEUTRAL",
-		"minecraft:iron_golem": "NEUTRAL",
+		"guardvillagers:guard": "NEUTRAL",
 		"minecraft:villager": "NEUTRAL",
-		"guardvillagers:guard": "NEUTRAL"
+		"minecraft:iron_golem": "NEUTRAL"
 	},
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
 	"player_relation_to_passives": "HOSTILE",

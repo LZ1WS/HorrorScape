@@ -40,9 +40,9 @@
 	*/
 	"player_relations": {
 		"minecraft:player": "SEMI_FRIENDLY",
-		"minecraft:iron_golem": "NEUTRAL",
+		"guardvillagers:guard": "SEMI_FRIENDLY",
 		"minecraft:villager": "SEMI_FRIENDLY",
-		"guardvillagers:guard": "SEMI_FRIENDLY"
+		"minecraft:iron_golem": "NEUTRAL"
 	},
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
 	"player_relation_to_passives": "HOSTILE",

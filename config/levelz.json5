@@ -17,7 +17,7 @@
 	"mobKillCount": 5,
 	// Strange potion resets all stats instead of one
 	"opStrangePotion": false,
-	// restrict hand usage when item not unlocked
+	// restrict hand usage when item not unlocked, client only
 	"lockedHandUsage": false,
 	// Only for Devs
 	"devMode": false,
@@ -105,20 +105,27 @@
 	"oreXPMultiplier": 1.0,
 	"tradingXPMultiplier": 0.30000001192092896,
 	"mobXPMultiplier": 1.0,
-	// Show the skill gui button in the inventory
-	"inventoryButton": true,
-	// Highlight locked blocks in red.
+	// Highlight locked blocks in red., client only
 	"highlightLocked": false,
+	// client only
 	"sortCraftingRecipesBySkill": false,
+	// client only
 	"inventorySkillLevel": true,
+	// client only
 	"inventorySkillLevelPosX": 0,
+	// client only
 	"inventorySkillLevelPosY": 0,
+	// client only
 	"showLevelList": true,
+	// client only
 	"showLevel": true,
-	// Switch levelz screen instead of closing with inventory key
+	// Switch levelz screen instead of closing with inventory key, client only
 	"switch_screen": false,
+	// client only
 	"showLockedBlockInfo": false,
+	// client only
 	"lockedBlockInfoPosX": 0,
+	// client only
 	"lockedBlockInfoPosY": 0,
 	"miningProgression": false,
 	"itemProgression": true,

@@ -11,7 +11,7 @@
 	#Range: 0 ~ 100
 	fireVulnerableDuration = 10
 	#The materials that will be considered holy.
-	holyMaterials = ["silver", "steel", "hallowed", "white_aegis", "mythril", "gold", "adamantine", "star_platinum", "holy", "blessed"]
+	holyMaterials = ["silver", "steel", "hallowed", "white_aegis", "mythril", "gold", "adamantine", "star_platinum", "holy", "blessed", "diamond_holy"]
 	#The number of seconds that vulnerability from holy sources lasts.
 	#Range: 0 ~ 100
 	holyVulnerableDuration = 10
