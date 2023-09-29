@@ -56,6 +56,7 @@ body:
     description: Can be found on CurseForge, Modrinth and GitHub sidebar. If you only have a GitHub link and you can't find it from the sidebar, it is ARR.
     options:
       - All Rights Reserved / ARR
+      - MIT
       - (any other license)
   validations:
     required: true
