@@ -1,6 +1,6 @@
 name: Mod request
 description: Suggest a new mod to be added or replaced in HorrorScape
-labels: Type: Enhancement
+labels: 'Type: Enhancement'
 body:
 - type: markdown
   attributes:
