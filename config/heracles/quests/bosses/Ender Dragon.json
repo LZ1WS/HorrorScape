@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "dragon": {
+      "entity": {
+        "type": "minecraft:ender_dragon"
+      },
+      "amount": 1,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "loot": {
+      "item": {
+        "id": "soulsweapons:lord_soul_void",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "It's not an ordinary end dragon fight. ",
+      "/4/PREPARE! Or die trying./4/",
+      "/8/There's ||something|| lurking in the void.../8/"
+    ],
+    "groups": {
+      "Bosses": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "simplehats:dragonskullender",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Ender Dragon"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

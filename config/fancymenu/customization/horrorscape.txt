@@ -1,0 +1,251 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = horrorscape
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2.05","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 1.82","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 6.23","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 1.63","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=2980%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2.35","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 20","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 1.63","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 20","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 1.47","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 40.23","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 1.63","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 18
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 214
+  action = deep_customization_element:title_screen_branding
+  actionid = d4d6597b-1fe7-4c13-ad30-fe35bb5fdfc81696204740821
+  y = 517
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 6dd3d89d-997d-440c-b314-7d125d05e5141696204740821
+  y = 232
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = a59bc9d3-b878-4e10-968e-640c88a609f31696204740821
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-left
+  splash_color = #ffff00
+  hidden = false
+  x = 216
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = df279bdc-53ad-4244-8055-ff705d939d101696204740821
+  y = -78
+  height = 30
+}
+
+customization {
+  path = resources/horrorscape/horrorscape.gif
+  orientation = top-left
+  x = 0
+  width = 220
+  action = addtexture
+  actionid = b5bbe105-9489-475c-8ca8-6227603ac5771696211210645
+  y = 0
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 3.35","decimal":"false"}}
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  loop = true
+  audio_source:fc75cd0c-acbc-4a20-ae54-481eca6951e01696210428123 = resources/horrorscape/Ambient.ogg;EXTERNAL_LOCAL;100;0
+  channel = master
+  x = 907
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 3cb09535-d0e3-4193-8c33-e99a7270360e1696210419107
+  y = 466
+  once_per_session = false
+  height = 50
+}
+
+customization {
+  orientation = bottom-centered
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 110
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/4e27ef2e75af67751a300682e776a6d666f490d447b7082d91905360504a1a8c
+  showname = false
+  crouching = false
+  follow_mouse = false
+  x = -33
+  width = 66
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 4751d685-0b65-4573-a90a-48f754fdbf101696214228233
+  y = -198
+  playername = L_Z1W_S
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 198
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/KQRyR2SCz2%btnaction_splitter_fm%
+  x = 24
+  width = 18
+  action = addbutton
+  actionid = a56487d9-1655-4041-ad83-68cf446f25711696214585946
+  y = 360
+  label = D
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://modrinth.com/modpack/horrorscape%btnaction_splitter_fm%
+  x = 154
+  width = 20
+  action = addbutton
+  actionid = b650009a-3873-4c26-a418-33621394d6231696214586594
+  y = 360
+  label = HS
+  height = 20
+}
+
+customization {
+  orientation = top-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = toggle_mute_audio;3cb09535-d0e3-4193-8c33-e99a7270360e1696210419107%btnaction_splitter_fm%
+  x = -100
+  width = 100
+  action = addbutton
+  actionid = 9ec1c274-b8ba-4fe8-b365-6bcd002138c81696214849253
+  y = 11
+  label = Mute Ambient
+  height = 20
+}
+

@@ -1,0 +1,73 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "boots": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "immersive_armors:wooden_boots"
+    },
+    "Chest": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "immersive_armors:wooden_chestplate"
+    },
+    "pants": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "immersive_armors:wooden_leggings"
+    },
+    "helmet": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "immersive_armors:wooden_helmet"
+    }
+  },
+  "rewards": {
+    "exp": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "wood": {
+      "item": {
+        "id": "minecraft:oak_wood",
+        "count": 25
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "I've got a splinter in my... nevermind."
+    },
+    "description": [
+      "Most basic armor that can save your ass in the early game. Has some cool resistances to ranged damage.",
+      "/4/Breaks very fast/4/"
+    ],
+    "groups": {
+      "Survival": {
+        "position": [
+          0,
+          -113
+        ]
+      }
+    },
+    "icon": {
+      "item": "immersive_armors:wooden_chestplate",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wooden Armor"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

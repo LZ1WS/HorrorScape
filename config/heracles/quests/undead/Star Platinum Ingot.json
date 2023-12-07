@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Adamantite Ingot"
+  ],
+  "tasks": {
+    "mythicmetals:star_platinum": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#mythicmetals:star_platinum"
+    }
+  },
+  "rewards": {
+    "level": {
+      "xptype": "LEVEL",
+      "amount": 8,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain sky blessed metal. Sounds like some anime thing."
+    },
+    "description": [
+      "Obtain sky blessed metal. Sounds like some anime thing."
+    ],
+    "groups": {
+      "Undead": {
+        "position": [
+          74,
+          227
+        ]
+      }
+    },
+    "icon": {
+      "item": "mythicmetals:star_platinum",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Star Platinum Ingot"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

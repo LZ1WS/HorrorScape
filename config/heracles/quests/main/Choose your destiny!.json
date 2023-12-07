@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "skill": {
+      "command": "puffish_skills points add @p simpleskills:tree 1",
+      "type": "heracles:command"
+    },
+    "foo": {
+      "amount": 1,
+      "rewards": {
+        "one": {
+          "icon": "minecraft:barrier",
+          "title": "{\"text\":\"\"}",
+          "command": "heracles dummy d9663e59-597d-42ae-bdec-3d08cd4a",
+          "type": "heracles:command"
+        },
+        "two": {
+          "command": "heracles dummy 43f1df4b-2e5f-4410-b1ae-d568e569",
+          "type": "heracles:command"
+        },
+        "three": {
+          "command": "heracles dummy 1af53de2-f37a-4e37-a642-d383a3ba",
+          "type": "heracles:command"
+        }
+      },
+      "type": "heracles:selectable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Choose your skill tree and specialization!"
+    },
+    "description": [
+      "/4/You love to destroy?/4/ /a/You like to heal?/a/ **/e/You like to do both?!/e/**",
+      "Then you're right where you need to be!",
+      "Press [/e/H/e/] to open a skill tree!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "simplehats:haticon",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Choose your destiny!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

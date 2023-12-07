@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "foo": {
+      "amount": 1,
+      "tasks": {
+        "test": {
+          "type": "heracles:item",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "item": "paladins:holy_wand"
+        },
+        "dasdas": {
+          "type": "heracles:item",
+          "amount": 1,
+          "collection": "AUTOMATIC",
+          "item": "paladins:holy_staff"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "lvl": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Are you preparing for holy crusade?"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Undead": {
+        "position": [
+          0,
+          65
+        ]
+      }
+    },
+    "icon": {
+      "item": "paladins:holy_staff",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "For the love of all things holy"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": true
+  }
+}

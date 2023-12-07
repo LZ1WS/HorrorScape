@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Coal"
+  ],
+  "tasks": {
+    "firearrow": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "consecration:fire_arrow"
+    }
+  },
+  "rewards": {
+    "arrow": {
+      "item": {
+        "id": "minecraft:arrow",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "level": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain the ultimate range weapon of undead extermination. Also known as firey stick. Now compatible with your bows!"
+    },
+    "description": [
+      "Obtain the ultimate range weapon of undead extermination. Also known as firey stick. Now compatible with your bows!"
+    ],
+    "groups": {
+      "Undead": {
+        "position": [
+          31,
+          66
+        ]
+      }
+    },
+    "icon": {
+      "item": "consecration:fire_arrow",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Try hit me, try hit me, try hit me, YOU CAN'T!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "level": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Tips to make your survival easier."
+    },
+    "description": [
+      "**/e/Gameplay Tips/e/**",
+      " ",
+      "Claim land with [/e/M/e/].",
+      " ",
+      "Work Together, fighting alone will lead to failure.",
+      " ",
+      "Press [/e/U/e/] to open the quest menu.",
+      "",
+      "Press [/e/R/e/] to dash.",
+      "",
+      "Press [/e/G/e/] to parry with shield."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          64,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gameplay Tips"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

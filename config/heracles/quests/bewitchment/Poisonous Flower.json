@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "plant": {
+      "item": "bewitchment:belladonna_seeds",
+      "type": "heracles:item_interaction"
+    },
+    "gather": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "CONSUME",
+      "item": "bewitchment:belladonna_seeds"
+    }
+  },
+  "rewards": {
+    "level": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find Belladonna seeds and plant them."
+    },
+    "description": [
+      "Find Belladonna seeds and plant them. You can obtain them the same way as any other seeds.",
+      "**/2/Go touch some grass./2/**"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          0,
+          39
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:belladonna_seeds",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "A seed of a poison"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

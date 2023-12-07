@@ -13,8 +13,8 @@
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "450485984333660181",
-    "defaultIcon": "simplevoidworld",
+    "clientId": "1158083806331408384",
+    "defaultIcon": "horrorscape",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
@@ -22,7 +22,7 @@
     "autoRegister": false
   },
   "biomeSettings": {
-    "fallbackBiomeIcon": "unknown",
+    "fallbackBiomeIcon": "horrorscape",
     "biomeData": {
       "default": {
         "textOverride": "Playing in {biome.name}"
@@ -30,7 +30,7 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "unknown",
+    "fallbackDimensionIcon": "horrorscape",
     "dimensionData": {
       "default": {
         "textOverride": "In the {dimension.name}"

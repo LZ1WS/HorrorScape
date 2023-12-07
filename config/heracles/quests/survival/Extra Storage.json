@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Craft a Backpack": {
+      "recipes": [
+        "travelersbackpack:standard"
+      ],
+      "type": "heracles:recipe"
+    }
+  },
+  "rewards": {
+    "Reward": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Backpack, to access more storage. Can be Opened with Keybind \"B\"."
+    },
+    "description": [
+      "Its time to expand your storage!!"
+    ],
+    "groups": {
+      "Survival": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "travelersbackpack:standard",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extra Storage"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

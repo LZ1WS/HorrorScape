@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "Activiating the Horde"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "reward": {
+      "item": {
+        "id": "minecraft:torch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Welcome to HorrorScapel!"
+    },
+    "description": [
+      "**/2/Welcome to HorrorScape!/2/**",
+      "",
+      "HorrorScape is a hardcore horror-themed modpack featuring RPG elements such as skill system and leveling system. It's built around horror mods, such as **Nyctophobia Dread, Cave Dweller, Gigeresque, From The Fog, Weeping Angels** and many more. While there's a progression system for player, there's also a progression system for mobs that increases their difficulty depending on your distance from spawn.",
+      "<br/>",
+      "Undead creatures became resistant to weapons, so now they need to be burned before proper extermination or attacked with holy materials, weapons or enchantments. Creepers are now a stalking menace, that won't leave you in peace after they saw you. And something sentient is also lurking in the dark... **And it's not alone**."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Welcome!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

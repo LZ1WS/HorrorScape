@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Belladonna",
+    "mandrake seeds"
+  ],
+  "tasks": {
+    "Mandrake": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "bewitchment:mandrake_root"
+    }
+  },
+  "rewards": {
+    "alchemy": {
+      "command": "playerstats @p add alchemy 1",
+      "type": "heracles:command"
+    },
+    "book": {
+      "item": {
+        "id": "bewitchment:book_of_shadows",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Mandrake Roots"
+    },
+    "description": [
+      "The most basic ingredient used in all of witchery."
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -34,
+          39
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:mandrake_root",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "It's screaming at me!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

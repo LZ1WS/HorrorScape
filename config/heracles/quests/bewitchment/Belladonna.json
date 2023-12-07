@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Poisonous Flower"
+  ],
+  "tasks": {
+    "belladonna": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "bewitchment:belladonna"
+    }
+  },
+  "rewards": {
+    "alchemy": {
+      "command": "playerstats @p add alchemy 1",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Belladonna flower."
+    },
+    "description": [
+      "Now do world a favor and regrow something you took from it.",
+      "**/4/NOW./4/**"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          32,
+          39
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:belladonna",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A poisonous flower"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

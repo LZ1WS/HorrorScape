@@ -27,5 +27,5 @@
 	"levelZXPMultiplicator": 3,
 	// Numismatic Overhaul compat lvl * multiplicator
 	"moneyMultiplicator": 20,
-	"allow_max_lvl_progress": false
+	"allowMaxLvlProgress": false
 }

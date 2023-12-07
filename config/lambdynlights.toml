@@ -135,6 +135,7 @@ mode = "fancy"
 				spawner_minecart = true
 				spectral_arrow = true
 				vex = true
+				villager = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true
@@ -265,6 +266,7 @@ mode = "fancy"
 				hills_creeper = true
 				spruce_creeper = true
 				jungle_creeper = true
+				savannah_creeper = true
 
 			[light_sources.settings.entities.bewitchment]
 				ghost = true
@@ -385,10 +387,35 @@ mode = "fancy"
 				nudibranch = true
 				cuttlefish = true
 				stonefish = true
+				discus = true
+				piranha = true
+				oscar = true
+				zebra_danio = true
 
 			[light_sources.settings.entities.doapi]
 				chair = true
 
 			[light_sources.settings.entities.adorn]
 				seat = true
+
+			[light_sources.settings.entities.mozombies_wave]
+				zombie_miner = true
+				zombie_pirate = true
+				zombie_notch = true
+				survivor = true
+				zombie_chef = true
+				zombie_king = true
+				zombie_herobrine = true
+				zombie_dwarf = true
+				zombie_creeper = true
+				zombie_pa = true
+				zombie_cyborg = true
+				disco_zombie = true
+				zombie_knight = true
+
+			[light_sources.settings.entities.skeletalremains]
+				sharpshooterskeleton = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				cave_enderman = true
 

@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "specialBehaviourRarity": 25,
-  "thingEventsEnabled": true,
-  "firstEventDay": 1,
-  "minDaysBetweenEvents": 30,
-  "maxDaysBetweenEvents": 40,
-  "autoRegenOutdatedConfigs": true
-}

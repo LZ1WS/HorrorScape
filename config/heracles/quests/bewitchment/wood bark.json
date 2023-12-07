@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "atame"
+  ],
+  "tasks": {
+    "wood bark": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "#bewitchment:barks"
+    },
+    "bark": {
+      "block": "#clutter:strippable_logs",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "alchemy": {
+      "command": "playerstats @p add alchemy 1",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain wood bark which used in all early recipes of Bewitchment."
+    },
+    "description": [
+      "Obtain wood bark which used in all early recipes of Bewitchment."
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -34,
+          116
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:spruce_bark",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A barking wood! Wait, what..."
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

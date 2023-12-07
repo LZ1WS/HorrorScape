@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "darkest_steel": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "mythicmetals:steel_ingot"
+    }
+  },
+  "rewards": {
+    "level": {
+      "xptype": "LEVEL",
+      "amount": 4,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain the edgiest blessed metal. Has a lot of weapon variants, so you can have fun with it even more."
+    },
+    "description": [
+      "Obtain the edgiest blessed metal. Has a lot of weapon variants, so you can have fun with it even more."
+    ],
+    "groups": {
+      "Undead": {
+        "position": [
+          74,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": "mythicmetals:steel_ingot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Did you steal that steel?"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": true
+  }
+}

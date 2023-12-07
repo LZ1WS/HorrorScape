@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Choose your destiny!"
+  ],
+  "tasks": {
+    "path of the initiate": {
+      "icon": "minecraft:barrier",
+      "title": "{\"text\":\"\"}",
+      "description": "{\"text\":\"\"}",
+      "value": "1af53de2-f37a-4e37-a642-d383a3ba",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "initiate": {
+      "command": "puffish_skills skills unlock @p simplyskills:tree ugh9khgdy254mefm",
+      "type": "heracles:command"
+    },
+    "point": {
+      "command": "puffish_skills points add @p sim",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Be a powerful wizard which uses arcane knowledge to his advantage."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -63,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "wizards:wizard_robe_head",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Path of the Initiate"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Silver Ingot"
+  ],
+  "tasks": {
+    "candelabra": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "bewitchment:silver_candelabra"
+    }
+  },
+  "rewards": {
+    "exp": {
+      "xptype": "POINTS",
+      "amount": 25,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "It's not only a decoration, but a useful thing!"
+    },
+    "description": [
+      "Candelabras are used to ward off evil spirits in the form of Ghosts. Place some on your base and lit them with flint & steel!"
+    ],
+    "groups": {
+      "Undead": {
+        "position": [
+          -64,
+          200
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:iron_candelabra",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nice looking use of torches."
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

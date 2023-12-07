@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "sdaas": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "coal": {
+      "item": {
+        "id": "minecraft:coal_ore",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "level": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make Preperations to Survive"
+    },
+    "description": [
+      "**/2/Prepare/2/**",
+      "/2/Available to you are a few different mods to help you prepare for the coming horrors./2/",
+      " ",
+      "**/e/Better Combat/e/**",
+      "Make a note of different weapons. You're going to need them to survive.",
+      " ",
+      "**/e/Simply Swords/e/**",
+      "Further enhance your equipment with new weapons.",
+      " ",
+      "**/e/LevelZ/e/**",
+      "Don't forget to spend your free 5 points and also plan your leveling ahead. It's advised to split specializations between players, if you're not alone.",
+      "<br/>",
+      "**/e/Pufferfish's Skills/e/**",
+      "Study the skill tree and find perfect path for yourself."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -64,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "lavender:dynamic_book",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Prepare"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

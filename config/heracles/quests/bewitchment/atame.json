@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Belladonna",
+    "mandragora"
+  ],
+  "tasks": {
+    "athame": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "bewitchment:athame"
+    }
+  },
+  "rewards": {
+    "alchemy": {
+      "command": "playerstats @p add alchemy 1",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Atame, a ritual dagger for your witchery needs!"
+    },
+    "description": [
+      "Very handy tool for a witch like you."
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          0,
+          84
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:athame",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A ritual dagger"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

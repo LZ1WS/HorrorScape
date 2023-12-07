@@ -55,7 +55,10 @@
     "earth.terrarium.heracles.client.screens.quests.QuestsScreen": true,
     "io.wispforest.owo.config.ui.ConfigScreen": true,
     "com.minecraftserverzone.weaponmaster.gui.WeaponMasterScreen": true,
-    "com.minecraftserverzone.weaponmaster.gui.DetailedSettingsScreen": true
+    "com.minecraftserverzone.weaponmaster.gui.DetailedSettingsScreen": true,
+    "earth.terrarium.heracles.client.screens.quests.QuestsEditScreen": true,
+    "earth.terrarium.heracles.client.screens.quest.QuestEditScreen": true,
+    "earth.terrarium.heracles.client.screens.quest.QuestScreen": true
   },
   "hideBackground": {
     "mezz.jei.gui.recipes.RecipesGui": true,

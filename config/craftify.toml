@@ -9,6 +9,7 @@
 	allowed_servers = "your.server.here"
 	announce_new_song = 0
 	notification_album_art_location = 1
+	announcement_message = "&aCraftify > &7Now Playing: &b${song} by ${artists}"
 
 [rendering]
 	anchor_point = 0
@@ -24,4 +25,8 @@
 	ytmd_password = ""
 	service_port = 8880
 	refresh_token = ""
+
+[servers]
+	send_songs_to_servers = false
+	allowed_servers = ""
 

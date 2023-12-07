@@ -1,0 +1,91 @@
+{
+    "task.heracles.require_quest.title": "Завершите %s",
+    "task.heracles.require_quest.desc": "Завершите задание",
+
+    "task.heracles.kill_entity": "\uD83D\uDDE1 Убить существо",
+    "task.heracles.kill_entity.title.singular": "Убейте %s",
+    "task.heracles.kill_entity.title.plural": "Убейте %ss",
+    "task.heracles.kill_entity.desc.singular": "Убейте %s %s",
+    "task.heracles.kill_entity.desc.plural": "Убейте %s %ss",
+    "setting.heracles.kill_entity.entity": "Существо для убийства:",
+    "setting.heracles.kill_entity.amount": "Количество для убийства:",
+
+    "task.heracles.item": "\uD83E\uDDEA Собрать предмет",
+    "task.heracles.item.title.singular": "Соберите %s",
+    "task.heracles.item.title.plural": "Соберите %ss",
+    "task.heracles.item.desc.singular": "Соберите %s %s",
+    "task.heracles.item.desc.plural": "Соберите %s %ss",
+    "setting.heracles.item.amount": "Количество: ",
+    "setting.heracles.item.manual": "Ручная проверка: ",
+
+    "task.heracles.advancement": "✔ Достижение",
+    "task.heracles.advancement.title.singular": "Завершите достижение:",
+    "task.heracles.advancement.title.plural": "Завершите одно из достижений",
+    "task.heracles.advancement.desc.singular": "%s",
+    "task.heracles.advancement.desc.plural": "%s Завершите 1 из следующих достижений",
+    "setting.heracles.advancement.advancement": "Достижение:",
+
+    "task.heracles.recipe": "\uD83E\uDE93 Рецепт",
+    "task.heracles.recipe.title.singular": "Создайте %s",
+    "task.heracles.recipe.title.plural": "Создайте 1 из рецептов",
+    "task.heracles.recipe.desc.singular": "Создайте рецепт",
+    "task.heracles.recipe.desc.plural": "%s Создайте 1 из следующих рецептов",
+    "setting.heracles.recipe.recipe": "Рецепт:",
+
+    "task.heracles.structure": "⌂ Структура",
+    "task.heracles.structure.title.singular": "Найдите %s",
+    "task.heracles.structure.desc.singular": "Посетите структуру",
+    "setting.heracles.structure.structure": "Структура:",
+
+    "task.heracles.biome": "☀ Биом",
+    "task.heracles.biome.title.singular": "Посетите %s",
+    "task.heracles.biome.desc.singular": "Посетите биом",
+    "setting.heracles.biome.biome": "Биом:",
+
+    "task.heracles.block_interaction": "⛏ Взаимодействие с блоком",
+    "task.heracles.block_interaction.title.singular": "Взаимодействуйте с %s",
+    "task.heracles.block_interaction.desc.singular": "[Правый клик] по блоку",
+    "setting.heracles.block_interaction.block": "Блок:",
+
+    "task.heracles.entity_interaction": "\uD83E\uDE93 Взаимодействие с сущностью",
+    "task.heracles.entity_interaction.title.singular": "Взаимодействуйте с %s",
+    "task.heracles.entity_interaction.desc.singular": "[Правый клик] по сущности",
+    "setting.heracles.entity_interaction.entity": "Сущность:",
+
+    "task.heracles.xp": "⭐ Опыт",
+    "task.heracles.xp.title.singular": "Получите опыт",
+    "task.heracles.xp.desc.singular": "Получите %s опыта %s",
+    "task.heracles.xp.desc.plural": "Получите %s опыта %ss",
+
+    "task.heracles.item_interaction": "\uD83C\uDFA3 Взаимодействие с предметом",
+    "task.heracles.item_interaction.title.singular": "Взаимодействуйте с %s",
+    "task.heracles.item_interaction.desc.singular": "[Правый клик] по предмету",
+    "setting.heracles.item_interaction.item": "Предмет:",
+
+    "task.heracles.changed_dimension": "\uD83C\uDF0A Смена измерения",
+    "task.heracles.changed_dimension.title.singular": "Перемещение между измерениями",
+    "task.heracles.changed_dimension.desc.singular": "Из %s в %s",
+    "setting.heracles.changed_dimension.from": "Из:",
+    "setting.heracles.changed_dimension.to": "В:",
+
+    "task.heracles.composite": "❓ Составной Квест",
+    "task.heracles.composite.title.singular": "Завершите 1 из заданий",
+    "task.heracles.composite.title.plural": "Завершите %s из заданий",
+
+    "task.heracles.check": "☑ Отметка",
+    "task.heracles.check.title.singular": "Поставьте отметку",
+    "task.heracles.check.desc.singular": "Поставьте отметку для завершения",
+    "setting.heracles.check.id": "ID отметки (можно поделиться): ",
+
+    "task.heracles.dummy": "☃ Манекен",
+    "setting.heracles.dummy.id": "ID манекена (можно поделиться): ",
+    "setting.heracles.dummy.title": "Заголовок: ",
+    "setting.heracles.dummy.description": "Описание: ",
+    "setting.heracles.dummy.icon": "Иконка: ",
+
+    "task.heracles.stat": "\uD83D\uDCAA Статистика",
+    "task.heracles.stat.title.singular": "Достигните %s %s",
+    "task.heracles.stat.desc.singular": "Увеличьте вашу статистику %s до %s",
+    "setting.heracles.stat.stat": "Статистика: ",
+    "setting.heracles.stat.target": "Цель: "
+}

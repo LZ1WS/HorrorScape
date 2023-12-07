@@ -1,0 +1,60 @@
+{
+    "rewards.heracles.toast": "Вознаграждение принято",
+
+    "quest.heracles.in_progress": "В процессе",
+    "quest.heracles.completed": "Выполнено",
+    "quest.heracles.dependencies": "Зависимости",
+
+    "quest.heracles.toast": "Задание завершено!",
+    "quest.heracles.toast.desc": "Нажмите [%s], чтобы открыть",
+
+    "quest_unlocked.heracles.toast": "Задание разблокировано!",
+    "quest_unlocked.heracles.toast.desc": "Нажмите [%s], чтобы открыть",
+
+    "quest.heracles.tutorial.title": "Откройте задания!",
+    "quest.heracles.tutorial.desc": "Нажмите [%s], чтобы открыть",
+
+    "item.heracles.quest_book": "Книга заданий",
+
+    "key.heracles.open_quests": "Открыть задания",
+    "key.categories.odyssey": "Проект Одиссей",
+
+    "gui.heracles.pinned_quests": "Закрепленные задания",
+    "gui.heracles.pinned_quests.move": "Переместить закрепленные задания",
+    "gui.heracles.rewards.title": "Награды",
+    "gui.heracles.rewards.create": "Создать награду",
+    "gui.heracles.rewards.edit": "Редактировать награду",
+    "gui.heracles.rewards.select_claim": "Получить эту награду",
+    "gui.heracles.rewards.claim": "Получить награды",
+    "gui.heracles.rewards.claim_reward": "Получить",
+    "gui.heracles.tasks.title": "Задачи",
+    "gui.heracles.tasks.description": "Выполните все задачи",
+    "gui.heracles.tasks.create": "Создать задачу",
+    "gui.heracles.tasks.edit": "Редактировать задачу",
+    "gui.heracles.tasks.check": "Отметить задачу",
+    "gui.heracles.quests.create": "Введите новый идентификатор задания",
+    "gui.heracles.quests.import": "Импортировать задания",
+    "gui.heracles.quests.view": "Просмотр заданий",
+    "gui.heracles.quests.overview": "Обзор",
+    "gui.heracles.group.create": "Создать группу",
+    "gui.heracles.group.delete": "Вы не можете удалить это, пока у него есть задания.",
+    "gui.heracles.tools.move": "Перемещение/Выбор [V]",
+    "gui.heracles.tools.drag": "Рука/Инструмент перетаскивания [H]",
+    "gui.heracles.tools.add_quest": "Добавить задание [U]",
+    "gui.heracles.tools.link": "Инструмент связи [L]",
+    "gui.heracles.save": "Сохранить",
+    "gui.heracles.close": "Закрыть",
+    "gui.heracles.submit": "Отправить",
+    "gui.heracles.search": "Поиск",
+    "gui.heracles.delete": "Удалить",
+    "gui.heracles.id": "Идентификатор",
+    "gui.heracles.toggle_edit": "Переключить режим редактирования",
+    "gui.heracles.open_quest_file": "Открыть файл с заданиями",
+
+    "setting.heracles.quest.individual_progress": "Индивидуальный прогресс",
+    "setting.heracles.quest.hidden": "Скрыть зависимости",
+    "setting.heracles.quest.unlock_notification": "Уведомление о разблокировке",
+
+    "rei.sections.odyssey": "Проект Одиссей",
+    "rei.heracles.heracles.tooltip": "Открыть задания"
+    }

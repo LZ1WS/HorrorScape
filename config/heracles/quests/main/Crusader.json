@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "Choose your destiny!"
+  ],
+  "tasks": {
+    "crusader path": {
+      "icon": "minecraft:barrier",
+      "title": "{\"text\":\"\"}",
+      "description": "{\"text\":\"\"}",
+      "value": "d9663e59-597d-42ae-bdec-3d08cd4a",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "warrior": {
+      "command": "puffish_skills skills unlock @p simplyskills:tree tjv6gfcb6aq0dspg",
+      "type": "heracles:command"
+    },
+    "point": {
+      "command": "puffish_skills points add @p simplyskills:tree 1",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Be a holy warrior which helps his allies and protects them using brutal force!!"
+    },
+    "description": [
+      "Use a Mace, Great Hammer or Claymore in the Spell Binding table to access paladin spells",
+      "Use Paladin Armor or Crusader Armor to gain attributes to boost your spells"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          -63
+        ]
+      }
+    },
+    "icon": {
+      "item": "paladins:crusader_armor_head",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Path of the Warrior"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

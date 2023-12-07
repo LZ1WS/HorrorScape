@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Coal"
+  ],
+  "tasks": {
+    "fireonastick": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "consecration:fire_stick"
+    }
+  },
+  "rewards": {
+    "coal": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "level": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain the ultimate weapon of undead extermination. Also known as firey stick."
+    },
+    "description": [
+      "Obtain the ultimate weapon of undead extermination. Also known as firey stick."
+    ],
+    "groups": {
+      "Undead": {
+        "position": [
+          -32,
+          66
+        ]
+      }
+    },
+    "icon": {
+      "item": "consecration:fire_stick",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blasphemy against unholy spirit!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": true
+  }
+}

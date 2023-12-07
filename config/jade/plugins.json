@@ -54,6 +54,9 @@
   "levelz": {
     "mineable_info": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "reputation": {
     "iron_golem": true,
     "villager_snitch": true,
@@ -74,5 +77,12 @@
     "hide_secret_buttons": true,
     "hide_lantern_buttons": true,
     "hide_torch_buttons": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
   }
 }

@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "seed": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "bewitchment:mandrake_seeds"
+    },
+    "plant": {
+      "item": "bewitchment:mandrake_seeds",
+      "type": "heracles:item_interaction"
+    }
+  },
+  "rewards": {
+    "alchemy": {
+      "command": "playerstats @p add alchemy 1",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain Mandrake Seeds and plant them"
+    },
+    "description": [
+      "Mandrake Seeds are quite rare, but they still come from grass.",
+      "/4/GO PUNCH IT./4/"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "bewitchment:mandrake_seeds",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "I've seen that somewhere..."
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

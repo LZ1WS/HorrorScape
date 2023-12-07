@@ -1,0 +1,39 @@
+{
+    "gui.heracles.rewards.unlocks_quest.title": "Разблокировать %s",
+    "gui.heracles.rewards.unlocks_quest.desc": "Предоставляет доступ к новому заданию.",
+
+    "reward.heracles.xp": "☠ Опыт",
+    "reward.heracles.xp.title.singular": "Получить опыт %s",
+    "reward.heracles.xp.title.plural": "Получить опыт %ss",
+    "reward.heracles.xp.desc.singular": "Получить опыт %s %s",
+    "reward.heracles.xp.desc.plural": "Получить опыт %s %ss",
+    "setting.heracles.xp.type": "Тип опыта:",
+    "setting.heracles.xp.amount": "Количество опыта:",
+
+    "reward.heracles.xp.type.point": "очки",
+    "reward.heracles.xp.type.level": "уровень",
+
+    "reward.heracles.item": "\uD83E\uDDEA Предмет",
+    "reward.heracles.item.title.singular": "Получить %s",
+    "reward.heracles.item.title.plural": "Получить %ss",
+    "reward.heracles.item.desc.singular": "Получить %s %s",
+    "reward.heracles.item.desc.plural": "Получить %s %ss",
+    "setting.heracles.item.item": "Предмет:",
+    "setting.heracles.item.count": "Количество:",
+
+    "reward.heracles.loottable": "↔ Таблица добычи",
+    "reward.heracles.loottable.title.singular": "Получить таблицу добычи",
+    "reward.heracles.loottable.desc.singular": "Получить таблицу добычи %s",
+    "setting.heracles.loottable.loottable": "Таблица добычи:",
+
+    "reward.heracles.select": "❓ Выбор",
+    "reward.heracles.select.title.singular": "Выбрать награду",
+    "reward.heracles.select.title.plural": "Выбрать награды",
+    "reward.heracles.select.desc.singular": "Нажмите кнопку, чтобы выбрать %s награду",
+    "reward.heracles.select.desc.plural": "Нажмите кнопку, чтобы выбрать %s награды",
+
+    "reward.heracles.command": "/ Команда",
+    "reward.heracles.command.title.singular": "Выполнить команду",
+    "reward.heracles.command.desc.singular": "Выполнить %s",
+    "setting.heracles.command.command": "Команда:"
+}

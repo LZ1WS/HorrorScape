@@ -1,7 +1,7 @@
 
 [spawn]
 	#'Weeping Angel' spawn classification
-	#Allowed Values: MONSTER, CREATURE, AMBIENT, AXOLOTLS, UNDERGROUND_WATER_CREATURE, WATER_CREATURE, WATER_AMBIENT, MISC, GLARES, FISH, FISH_UNDERGROUND, JELLY, SHARK, CRITTER
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, AXOLOTLS, UNDERGROUND_WATER_CREATURE, WATER_CREATURE, WATER_AMBIENT, MISC, GLARES, RASCALS, ha_fish, ha_fish_underground, ha_jelly, ha_shark, ha_critter
 	spawnType = "MONSTER"
 	#The minimum amount of 'Weeping Angels' that spawn at each spawn attempt
 	#Range: 1 ~ 100

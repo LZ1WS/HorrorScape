@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Choose your destiny!"
+  ],
+  "tasks": {
+    "wayfarer": {
+      "icon": "minecraft:barrier",
+      "title": "{\"text\":\"\"}",
+      "description": "{\"text\":\"\"}",
+      "value": "43f1df4b-2e5f-4410-b1ae-d568e569",
+      "type": "heracles:dummy"
+    }
+  },
+  "rewards": {
+    "wayfarer": {
+      "command": "puffish_skills skills unlock @p simplyskills:tree 91hp5wxy4ar21ylf",
+      "type": "heracles:command"
+    },
+    "point": {
+      "command": "puffish_skills points add @p sim",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Be a deadly force that uses lightweight tools to achieve his goal!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          63,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "enderzoology:hunting_bow",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Path of the Wayfarer"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": true,
+    "unlockNotification": true
+  }
+}

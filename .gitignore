@@ -1,12 +1,20 @@
 .fabric/
+crash-reports/
+data/
 dashloader-cache/
 fancymenu_data/
+fancymenu_instance_data/
 logs/
 mods/
+modernfix/
 ModTranslations/
 resourcepacks/
+saves/
+screenshots/
 shaderpacks/
 scripts/examples/
+XaeroWaypoints/
+XaeroWorldMap/
 options.txt
 profile.json
 *.zip
@@ -17,3 +25,6 @@ patchouli_data.json
 realms_persistence.json
 servers.dat
 spell_engine_tutorial.json
+.spyglass_astronomy/rendering.txt
+usercache.json
+heracles_options.json
